@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh "mvn clean spring-boot:repackage"
+        sh "mvn clean package"
       }
     }
   }
