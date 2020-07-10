@@ -14,8 +14,8 @@ pipeline {
   }
 
   post {
-    slways {
-      archiveArtifacts artifacts: 'target/**/*.jar', fingeroprint: true
+    always {
+      archiveArtifacts artifacts: 'target/**/*.jar', fingerprint: true
     }
   }
 }
