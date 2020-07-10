@@ -18,13 +18,13 @@ pipeline {
             mavenAssetList: [
                 [classifier: '',
                     extension: '',
-                    filePath: './target/jenkins-demo3-0.0.1-SNAPSHOT.jar'
+                    filePath: './target/jenkins-demo3-1.0.RELEASE.jar'
                 ]
             ],// end of mavenAssetList
             mavenCoordinate: [
                 artifactId: 'jenkins-demo3',
                 groupId: 'org.ting',
-                packaging: 'jar',version: '1.0'
+                packaging: 'jar',version: '1.0.RELEASE'
                 ]
             ] // end of packages
          ])
